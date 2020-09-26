@@ -10,7 +10,7 @@ function test(executionContext) {
        //alert(memType);
        var viewId = "{00000000-0000-0000-0000-000100000001}"; // random Guid
        var entityName = "account";
-       var viewDisplayName = "Custom Client Lookup View";
+       var viewDisplayName = "Custom Client Lookup View"; // guid
 var fetchXml =  "<fetch version='1.0' output-format='xml-platform' mapping='logical' distinct='false'>"+
 "  <entity name='account'>"+"    <attribute name='name' />"+"    <attribute name='primarycontactid' />"+"    <attribute name='telephone1' />"+
 "    <attribute name='accountid' />"+"    <order attribute='name' descending='false' />"+
